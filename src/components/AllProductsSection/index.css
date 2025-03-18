@@ -48,8 +48,15 @@
   flex-wrap: wrap;
   padding-left: 0;
 }
-.no-products {
+.no-products-view {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 60vh;
+}
+
+.no-products-img {
+  width: 200px;
+  height: auto;
 }
